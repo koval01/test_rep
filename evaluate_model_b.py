@@ -71,7 +71,7 @@ def print_sample(samples):
   for index, sample in enumerate(samples):
       print(sample)
       print(f"-------SAMPLE {index} END-------")
-      os.system('cmd /c "nvidia-smi"')
+      os.system("nvidia-smi")
 
 def continuous_run(evaluator: ModelEvaluator, args):
   while True:
